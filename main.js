@@ -8,10 +8,7 @@ async function fetchData() {
   console.log(data);
   var list = document.createElement("div");
   document.body.append(list);
-  // list.style.display ='flex'
-  // list.style.flexWrap = 'wrap'
-  // list.style.textAlign = 'center'
-  // list.style.justifyContent = 'center'
+
 
   list.classList.add("flex-wrap");
   list.classList.add("d-flex");
@@ -36,7 +33,7 @@ async function fetchData() {
     div.classList.add("col-12");
     div.classList.add("col-sm-4");
     div.style.border = 'solid black'
-    // div.style.width='30vw'
+    
 
     div.append(title);
     div.append(img);
