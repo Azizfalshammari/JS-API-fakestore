@@ -1,7 +1,7 @@
 const url = "https://fakestoreapi.com/products";
 
 fetchData();
-
+ 
 async function fetchData() {
   const response = await fetch(url);
   const data = await response.json();
